@@ -1,7 +1,3 @@
-HEAD
-# weather-app
-The Advanced Weather App is a responsive, interactive web-based application that allows users to  view-time weather information for any city worldwide. It uses the OpenweatherMap API to fetch weather data and display details such as temperature,weather conditions,wind speed,sunrise/sunset, and 5-day forecaste. and etc..
-
 # Advanced Weather App
 
 ## Project Overview
@@ -48,9 +44,7 @@ Replace the value of apiKey inside script.js with your API key:
 
 # ⚠ Error Handling
 ! User input validation (empty city)
-
 ! API error messages (e.g., invalid city or API limit reached)
-
 ! Graceful fallback if weather data or forecast is unavailable
 
 # 📄 License
@@ -60,4 +54,3 @@ This project is licensed under the MIT License.
 Developed by Rakshith N
 
 # For learning and academic purposes.
-309608f (Initial commit)
