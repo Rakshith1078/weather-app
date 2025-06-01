@@ -4,6 +4,9 @@
 
 The Advanced Weather App is a responsive, interactive web-based application that allows users to  view-time weather information for any city worldwide. It uses the OpenweatherMap API to fetch weather data and display details such as temperature,weather conditions,wind speed,sunrise/sunset, and 5-day forecaste.It also includes features like dark mode,unit toggle,auto-refresh,geo-location,weather alters,and pdf weather report download.
 
+# Live Demo:
+[click to view]:(https://rakshith1078.github.io/weather-app/)
+
 # Featuers
 1. city-wise weather search
 2. temperature unit toggle (C/F)
@@ -25,32 +28,18 @@ The Advanced Weather App is a responsive, interactive web-based application that
 * jsPDF (for PDF generation)
 
 ## To run Advanced WEather APP
-
-1. open imdex.html
+'''bash
+git clone https://github.com/Rakshith1078/weather-app.git
+cd weather-app
+Then open imdex.html
 //you can simply open index.html in a browser
-
-2. 🔐 API Setup  // script.js
-This app uses the OpenWeatherMap API.
-Visit https://openweathermap.org/api
-Sign up and get your free API key.
-Replace the value of apiKey inside script.js with your API key:
-## const apiKey = "YOUR_API_KEY_HERE";
-
-# project Structure 
-├── index.html         # Main HTML file
-├── style.css          # Styling for the app
-├── script.js          # All JavaScript logic
-└── README.md          # Project documentation (this file)
-
-# ⚠ Error Handling
-! User input validation (empty city)
-! API error messages (e.g., invalid city or API limit reached)
-! Graceful fallback if weather data or forecast is unavailable
 
 # 📄 License
 This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 Developed by Rakshith N
+Rakshith
+🔗 GitHub Profile
 
 # For learning and academic purposes.
