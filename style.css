@@ -1,0 +1,300 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  min-height: 100vh;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  max-width: 450px;
+  width: 100%;
+  padding: 20px 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #2980b9;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 2px solid #2980b9;
+  border-radius: 6px;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+
+#cityInput:focus {
+  border-color: #56ccf2;
+}
+
+#getWeatherBtn {
+  background: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#getWeatherBtn:hover,
+#getWeatherBtn:focus {
+  background: #56ccf2;
+  outline: none;
+}
+
+.toggles-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2980b9;
+  user-select: none;
+  align-items: center;
+}
+
+.toggles-section label {
+  cursor: pointer;
+}
+
+.toggles-section input[type="checkbox"],
+.toggles-section input[type="number"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+#autoRefreshInput {
+  width: 50px;
+  padding: 3px 6px;
+  font-weight: normal;
+  cursor: text;
+  border-radius: 4px;
+  border: 1.5px solid #2980b9;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+
+#autoRefreshInput:focus {
+  border-color: #56ccf2;
+}
+
+.hidden {
+  display: none;
+}
+
+#loading {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2980b9;
+}
+
+/* Alerts */
+.alerts {
+  background: #ffefef;
+  border: 1.5px solid #ff4c4c;
+  color: #9b0000;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Weather Results */
+.weather-result {
+  background: #f7f9fc;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: inset 0 0 6px #b5d2ff;
+  color: #222;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.weather-result h2 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.weather-result p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+.weather-result img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+/* Forecast */
+.forecast {
+  margin-top: 20px;
+  color: #222;
+  transition: color 0.5s ease;
+}
+
+.forecast h3 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 6px;
+}
+
+.forecast-day {
+  background: #eaf3fc;
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  box-shadow: inset 0 0 8px #c6defd;
+  text-align: center;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.forecast-day p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+
+/* Download PDF Button */
+.download-btn {
+  margin-top: 15px;
+  background: #29b937;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover,
+.download-btn:focus {
+  background: #56ccf2;
+  outline: none;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #121212;
+  color: #ddd;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  color: #ddd;
+  box-shadow: 0 8px 20px rgba(255,255,255,0.1);
+}
+
+body.dark #cityInput {
+  background: #2c2c2c;
+  border-color: #56ccf2;
+  color: #ddd;
+}
+
+body.dark #cityInput:focus {
+  border-color: #a0c4ff;
+}
+
+body.dark #getWeatherBtn,
+body.dark .download-btn {
+  background: #333;
+  color: #ddd;
+}
+
+body.dark #getWeatherBtn:hover,
+body.dark .download-btn:hover {
+  background: #56ccf2;
+  color: #222;
+}
+
+body.dark .toggles-section {
+  color: #a0c4ff;
+}
+
+body.dark .weather-result {
+  background: #292929;
+  box-shadow: inset 0 0 6px #56ccf2;
+  color: #ddd;
+}
+
+body.dark .forecast {
+  color: #ddd;
+}
+
+body.dark .forecast-day {
+  background: #222;
+  box-shadow: inset 0 0 8px #56ccf2;
+  color: #ddd;
+}
+
+body.dark .alerts {
+  background: #450000;
+  border-color: #ff4c4c;
+  color: #ffadad;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    padding: 15px 18px;
+  }
+  
+  #cityInput, #getWeatherBtn {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+  
+  .weather-result h2 {
+    font-size: 1.2rem;
+  }
+  
+  .forecast-day p {
+    font-size: 0.85rem;
+  }
+
+  .toggles-section {
+    gap: 12px 10px;
+  }
+}
