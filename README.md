@@ -18,7 +18,8 @@ The Advanced Weather App is a responsive, interactive web-based application that
 8. 5-day forecaste with icons
 9. download pdf weather report
 10. fully responsive design 
-
+11. weather app can be downloadable are installed (desktop/mobiles)
+12. it support Advanced weather app as PWA
 
 ## Technologies Used
 * HTML5
