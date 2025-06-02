@@ -1,0 +1,38 @@
+{
+  "name": "Advanced Weather App",
+  "short_name": "WeatherApp",
+  "start_url": "./index.html",
+  "id": "./index.html",
+  "display": "standalone",
+  "background_color": "#1e1e1e",
+  "theme_color": "#0e76a8",
+  "orientation": "portrait",
+    "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpuse":"any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+   {
+    "src": "screenshots/simage1.png",
+    "sizes": "1278x652",
+    "type": "image/png",
+    "form_factor": "narrow"
+   },
+   {
+    "src": "screenshots/simage2.png",
+    "sizes": "449x634",
+    "type": "image/png"
+   }
+  ]
+  }
+
+   
