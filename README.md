@@ -18,7 +18,8 @@ The Advanced Weather App is a responsive, interactive web-based application that
 8. 5-day forecaste with icons
 9. download pdf weather report
 10. fully responsive design 
-
+11. weather app can be downloadable are installed (desktop/mobiles)
+12. it support Advanced weather app as PWA
 
 ## Technologies Used
 * HTML5
@@ -40,12 +41,6 @@ Visit https://openweathermap.org/api
 Sign up and get your free API key.
 Replace the value of apiKey inside script.js with your API key:
 ## const apiKey = "YOUR_API_KEY_HERE";
-
-# project Structure 
-├── index.html         # Main HTML file
-├── style.css          # Styling for the app
-├── script.js          # All JavaScript logic
-└── README.md          # Project documentation (this file)
 
 # 📄 License
 This project is licensed under the MIT License.
