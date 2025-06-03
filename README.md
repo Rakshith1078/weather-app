@@ -34,8 +34,6 @@ cd weather-app
 Then open imdex.html
 //you can simply open index.html in a browser
 
-<<<<<<< HEAD
-=======
 2. 🔐 API Setup  // script.js
 This app uses the OpenWeatherMap API.
 Visit https://openweathermap.org/api
@@ -49,7 +47,6 @@ Replace the value of apiKey inside script.js with your API key:
 ├── script.js          # All JavaScript logic
 └── README.md          # Project documentation (this file)
 
->>>>>>> e149a34 (Added extra features and fixed bugs)
 # 📄 License
 This project is licensed under the MIT License.
 
@@ -59,7 +56,3 @@ Rakshith
 🔗 GitHub Profile
 
 # For learning and academic purposes.
-<<<<<<< HEAD
-=======
-
->>>>>>> e149a34 (Added extra features and fixed bugs)
