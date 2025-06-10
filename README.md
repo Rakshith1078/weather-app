@@ -4,8 +4,8 @@
 
 The Advanced Weather App is a responsive, interactive web-based application that allows users to  view-time weather information for any city worldwide. It uses the OpenweatherMap API to fetch weather data and display details such as temperature,weather conditions,wind speed,sunrise/sunset, and 5-day forecaste.It also includes features like dark mode,unit toggle,auto-refresh,geo-location,weather alters,and pdf weather report download.
 
-# Live Demo:
-[click to view]:(https://rakshith1078.github.io/weather-app/)
+🚀 Live Demo
+🔗 Click Here to View Live:
 
 # Featuers
 1. city-wise weather search
